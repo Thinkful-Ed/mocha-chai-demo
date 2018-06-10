@@ -27,7 +27,7 @@ describe('isEqual', function() {
         ];
         unequalInputs.forEach(function(input) {
             const answer = isEqual(input[0], input[1]);
-            answer.should.be.false
+            answer.should.be.false;
         });
     });
   }
